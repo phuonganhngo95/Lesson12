@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Gotham-Medium';
+}
+
+/* Header */
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 1920px;
+    padding: 0;
+}
+
+#header {
+    padding: 1rem 0 1.75rem;
+}
+
+/* #header-nav {
+    height: 100%;
+} */
+
+#header-nav li {
+    position: relative;
+}
+
+#header-nav a {
+    color: #000;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#header-nav li:hover a::after {
+    content: '';
+    width: 4.25rem;
+    height: 0.3125rem;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    background-color: #bd945f;
+}
+
+/* Banner */
+#banner {
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 823px;
+    /* font-family: 'Gotham-Ultra'; */
+}
+
+#banner .text {
+    width: 844px;
+    line-height: 24px;
+    margin-left: 52px;
+}
+
+.text h1 {
+    padding-top: 8.625rem;
+    color: #2c2e53;
+}
+
+#banner h1,
+#banner span {
+    font-family: 'Gotham-Ultra';
+}
+
+#banner span {
+    font-size: 46.43px;
+    color: #bd945f;
+}
+
+.text p {
+    width: 554px;
+    text-align: justify;
+    margin-top: 2.125rem;
+}
+
+#banner button {
+    background-color: #bd945f;
+    color: #ffffff;
+    border: none;
+    margin-top: 1.8125rem;
+    margin-left: 52px;
+    padding: 26px 33px;
+    font-family: 'Gotham-Ultra';
+    font-size: 19.33px;
+}
+
+#icons {
+    position: absolute;
+    top: 920px;
+    left: 350px;
+}
+
+.image-icon {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-icon img {
+    padding: 25px 53px 0 53px;
+}
+
+.image-icon a figcaption,
+.sp-details  a figcaption {
+
+    text-align: center;
+    color: #2c2e53;
+    font-family: 'Gotham-Ultra';
+    font-size: 15.98px;
+}
+
+.image-icon a figcaption:hover {
+    color: #3539b1;
+}
+
+/* Sản phẩm */
+#san-pham {
+    width: 100%;
+    height: 1080px;
+    background-color: #f3f3f3;
+}
+
+.sp-container {
+    margin-left: 50px auto;
+    margin-right: 50px auto;
+}
+
+#san-pham h2 {
+    padding-top: 600px;
+    margin-left: 452px;
+    color: #2c2e53;
+    font-family: 'Gotham-Ultra';
+}
+
+.sp-article {
+    width: 1311px;
+}
+
+.sp-article .hr {
+    content: '';
+    width: 165px;
+    height: 9px;
+    margin: auto 533px;
+    background-color: #bd945f;
+}
+
+.sp-details {
+    margin-top: 43px;
+}
+
+.sp-details img {
+    width: 268px;
+    height: 268px;
+    padding-right: 32px;
+}
+
+.sp-details button {
+    background-color: #f3f3f3;
+    margin-bottom: 95px;
+}
+
+.sp-details button .fa-angle-left,
+.sp-details button .fa-angle-right {
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 17px 14px 12px;
+    background-color: #bd945f;
+    color: #ffffff;
+}
+
+.sp-details figcaption {
+    margin-top: 13px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.sp-details figcaption .fa-star {
+    color: #bd945f;
+    line-height: 5px;
+}
+
+.sp-details .sp-size {
+    text-align: center;
+    margin-right: 30px;
+    color: #8f8f8f;
+}
+
+.sp-gia {
+    text-align: center;
+    margin-right: 30px;
+    color: #4c4c4c;
+}
+
+.sp-image a div {
+    line-height: 6px;
+}
+
+/* About us */
+#about-us {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../imgs/bg-about-us.jpg);
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+#footer {
+    background-color: #363636;
+    color: #fff;
+    padding: 4.75rem 0 3.375rem;
+}
+
+#footer h4 {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+#footer h4::after {
+    content: '';
+    width: 5.6rem;
+    height: 0.25rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+#footer h5 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#footer address span,
+#footer address span a,
+#footer ul li a {
+    font-family: 'Gotham-Thin';
+}
+
+#footer h5,
+#footer address>div {
+    margin-top: 1rem;
+}
+
+#footer ul li {
+    margin-top: 0.5625rem;
+}
+
+#footer address span a {
+    color: #fff;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg,  .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+
+}
